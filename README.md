@@ -24,6 +24,9 @@
 ###### batch_size = 32
 ###### num_rounds = 5
 ###### seed_number = 1
+ ![image](https://github.com/xxscdyxy/Building-Research-Infrastructure-and-Workforce-in-Edge-Artificial-Intelligence/assets/71146208/2fb652ca-e9fa-4b59-85ab-911322c7b4bb)
+
+#### Window_slide = 180 and mins_before_predict = 30 imply that the model uses the past 180 minutes of data to predict the glucose values 30 minutes into the future. For instance, it utilizes data from 0 to 180 minutes to predict the glucose value at 210 minutes. Subsequently, it uses data from 1 to 181 minutes to predict the glucose value at 211 minutes. The reason for providing a list is to enable the user to experiment with multiple window slide and minutes before predict values simultaneously.
 
  ![image](https://github.com/xxscdyxy/Building-Research-Infrastructure-and-Workforce-in-Edge-Artificial-Intelligence/assets/71146208/44762725-8a89-4e00-9d10-81f51d8161e2)
 
