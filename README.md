@@ -28,3 +28,6 @@
  ![image](https://github.com/xxscdyxy/Building-Research-Infrastructure-and-Workforce-in-Edge-Artificial-Intelligence/assets/71146208/44762725-8a89-4e00-9d10-81f51d8161e2)
 
 #### I want to clarify the layers and framework of the RNN. The RNN architecture has been redefined to include one Input Layer, two hidden layers, and an output layer. The number of neurons in the input layer depends on the size of the training data. As it is time-series data, we cannot randomly choose the data for training. Therefore, we designate the last day's data as test data, the day before the last day's data as validation data, and the remaining days' data as training data. Consequently, the number of neurons in the first layer depends on the input number of days' data. The two hidden layers are configured with 64 and 32 neurons, respectively, and the output layer consists of a single neuron.
+
+# Results
+#### The data within the "Results" folder will be generated automatically when the algorithm is utilized.
