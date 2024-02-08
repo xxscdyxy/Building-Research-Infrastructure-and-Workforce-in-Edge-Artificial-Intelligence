@@ -1,6 +1,6 @@
 # Dataset:
 
-#### There are a total of 30 patients, including adults #001-010, adolescents #001-010, and children #001-010. Each patient has 20 days of data. The data comprises three variables: "CGM" (representing glucose values), "CHO" (representing carbohydrate intake), and "insulin" (representing insulin values). Data for each variable is recorded every 3 minutes. It's important to note that the carbohydrate intake remains consistent across all patients, both in terms of timing and amount.
+#### There are a total of 30 patients, including adults #001-010, adolescents #001-010, and children #001-010. Each patient has 20 days of data. The data comprises three variables: "CGM" (representing glucose values), "CHO" (representing carbohydrate intake), and "insulin" (representing insulin values). Data for each variable is recorded every 3 minutes. Carbohydrate intake remains consistent across all patients, both in terms of timing and amount.
 
 # Algorithm:
 #### There are four types of algorithms included, each serving a different purpose in training and utilizing the model.
